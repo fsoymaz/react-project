@@ -1,0 +1,32 @@
+.center {
+  width: 50%;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  border: 3px solid green;
+  background-color: #e21616;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+li::before {
+  content: '* ';
+  color: rgb(68, 0, 128);
+  font-size: 1.75em;
+}
+
+button {
+  margin-left: 5px;
+  margin-top: 2px; /* Eklenen satır */
+}
