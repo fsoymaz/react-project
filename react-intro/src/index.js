@@ -7,6 +7,7 @@ import './index.css';
 // program buradan başlıyor
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import axios from 'axios';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
