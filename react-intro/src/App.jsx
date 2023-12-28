@@ -4,7 +4,8 @@ import './App.css';
 import Homepage from './pages/Homepage/Homepage';
 import About from './pages/About/About';
 import Navbar from './components/Navbar/Navbar';
-import AddProduct from './pages/AddProduct/addProduct';
+import AddNewProduct from './pages/AddNewProduct/AddNewProduct';
+import ProductDetails from './pages/ProductDetails/ProductDetails';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/about" element={<About />} />
-          <Route path="/add-product" element={<AddProduct />} /> {/* Yeni eklenen route */}
+          <Route path="/product-detail/:id" element={<ProductDetails />} />
+
+          <Route path="/add-product" element={<AddNewProduct />} />
           <Route path="*" element={<h1>Not Found</h1>} />
         </Routes>
       </BrowserRouter>
