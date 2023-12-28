@@ -5,7 +5,7 @@ export default function ProductCard(props) {
   const handleDelete = async () => {
     try {
       // Silme işlemi için istek atılıyor
-      const response = await fetch(`https://dummyjson.com/products/${props.product.id}`, {
+      const response = await fetch(`https://dummyjson.com/products/{props.product.id}`, {
         method: 'DELETE',
       });
 
@@ -26,7 +26,12 @@ export default function ProductCard(props) {
       <div className='card-body'>
         <h5 className='card-title'>{props.product.title}</h5>
         <p className='card-text'>{props.product.description}</p>
-        <Link to={"/product-detail?id=" + props.product.id} className='btn btn-primary'>Detay</Link>
+        <Link
+					to={"/product-detail/" + props.product.id}
+					className="btn btn-primary"
+				>
+					Details
+				</Link>
         <button className='btn btn-danger' onClick={handleDelete}>Sil</button>
       </div>
     </div>
