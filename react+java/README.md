@@ -26,7 +26,3 @@ they can reach it easily.
 
 ![ERD-pair_8](https://github.com/fsoymaz/rent-a-car-pair8/assets/106733511/5a6e59ed-4f9a-4b97-8318-020ec0ea57e1)
 
-#### COLLABORATORS
-- **Fatih Soymaz**
-- **Yunus Emre Cenan**
-- **Fatıma Ekşioğlu**
