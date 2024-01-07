@@ -1,6 +1,6 @@
 import React from 'react'
 import { Menu } from 'semantic-ui-react'
-
+/*
 export default function Categories() {
 	return (
 		<div>
@@ -18,3 +18,5 @@ export default function Categories() {
 		</div>
 	)
 }
+*/
+
